@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<script src="math2.js"></script>
+<style type="text/css">
+	body {
+		text-align: center;
+	}
+	#Life {
+		border: 2px solid black;
+	}
+</style>
+<html>
+<head>
+	<title>
+		Conway's Game of Life
+	</title>
+</head>
+<h1>
+	Game of Life
+</h1>
+<canvas id='Life'></canvas>
+<script type="text/javascript">
+	function init(){
+		var c1 = document.getElementById('Life');
+		c1.width = window.innerWidth, c1.height = window.innerHeight;
+	}
+	init();
+</script>
+<script src="data.js"></script>
+<script src="rules.js"></script>
+<script src="Life.js"></script>
+<script type="text/javascript">
+</script>
+<body>
+</body>
+</html>
